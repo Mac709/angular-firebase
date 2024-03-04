@@ -1,0 +1,7 @@
+<app-map></app-map>
+<div>
+content from firebase:
+  <p *ngFor="let item of comment | async">
+    {{ item.content }}
+  </p>
+</div>
